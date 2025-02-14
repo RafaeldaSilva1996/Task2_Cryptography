@@ -169,3 +169,10 @@ if __name__ == "__main__":  # Main execution block to initiate encryption and de
     with open(decrypted_file2, 'w') as f:  # Open the second decrypted file in write mode to save the decrypted content  # Save decrypted second message to a text file
         f.write(decrypted_text2)
         print(f"Decrypted files saved in: {decrypted_folder}")  # Notify user of successful decryption
+
+
+
+
+# References : https://gist.github.com/de82a468e62e73805c59af620904c124.git
+# https://cryptography.io/en/latest/
+# https://cryptobook.nakov.com
